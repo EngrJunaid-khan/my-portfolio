@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Junaid Khan - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">JK</a>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#education">Education</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Hi, I'm <span class="typewriter" data-text="Junaid Khan"></span></h1>
+                <h2>Frontend Developer | React.js | Data Analyst</h2>
+                <p>I create beautiful, responsive websites and derive insights from data</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn">View My Work</a>
+                    <a href="cv.pdf" class="btn btn-cv" download="Junaid_Khan_CV.pdf">
+                        <i class="fas fa-download"></i> Download CV
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="profile.png" alt="Junaid Khan" class="profile-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Frontend Developer with a strong foundation in React.js and a growing background in data
+                        analysis. Passionate about creating responsive, user-friendly applications that prioritize
+                        performance and accessibility.</p>
+                    <p>Skilled in delivering clean code, improving user experience, and working effectively within
+                        cross-functional teams.</p>
+                    <div class="skills">
+                        <h3>My Skills</h3>
+                        <div class="skill-tags">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                            <span>React.js</span>
+                            <span>Python</span>
+                            <span>NumPy</span>
+                            <span>Matplotlib</span>
+                            <span>SQL</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="img.jpeg" alt="About Junaid Khan">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Education & Experience</h2>
+            <div class="education-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">2019 - 2023</div>
+                    <div class="timeline-content">
+                        <h3>Bachelor's in Computer Science</h3>
+                        <h4>University of Engineering and Technology Mardan</h4>
+                        <p>Specialized in Web Development and Software Engineering.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">Jan 2023 – May 2024</div>
+                    <div class="timeline-content">
+                        <h3>Frontend Developer</h3>
+                        <h4>Exiline Software House, Pakistan</h4>
+                        <p>Developed and maintained user interfaces using React.js. Optimized web performance, reducing
+                            page load times by 30%.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">Nov 2024 – Apr 2025</div>
+                    <div class="timeline-content">
+                        <h3>Data Analyst Intern</h3>
+                        <h4>Inotech Solution Software House, Pakistan</h4>
+                        <p>Conducted data analysis using Python to derive actionable insights. Automated reporting
+                            tasks, reducing manual workload.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="project-tabs">
+                <button class="tab-btn active" data-tab="all">All</button>
+                <button class="tab-btn" data-tab="web">Web</button>
+                <button class="tab-btn" data-tab="data">Data</button>
+            </div>
+
+            <div id="all" class="tab-content active">
+                <div class="project-grid">
+                    <div class="project-card">
+                        <!-- <img src="project1.jpg" alt="Hostel Management System"> -->
+                        <h3>Hostel Management System</h3>
+                        <p>Full-stack system with MongoDB backend and responsive frontend (HTML/CSS/JS). Streamlined
+                            administrative tasks like room allocation and fee tracking.</p>
+                        <a href="#" class="btn">View Project</a>
+                    </div>
+                    <div class="project-card">
+                        <!-- <img src="project2.jpg" alt="Data Analysis Automation"> -->
+                        <h3>Data Analysis Automation</h3>
+                        <p>Developed Python scripts to clean and analyze sales data, reducing processing time by 40%.
+                        </p>
+                        <a href="#" class="btn">View Project</a>
+                    </div>
+                    <div class="project-card">
+                        <!-- <img src="project3.jpg" alt="E-commerce Website"> -->
+                        <h3>E-commerce Website</h3>
+                        <p>Full-featured online store with React and Node.js backend</p>
+                        <a href="#" class="btn">View Project</a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="web" class="tab-content">
+                <div class="project-grid">
+                    <div class="project-card">
+                        <img src="project1.jpg" alt="Hostel Management System">
+                        <h3>Hostel Management System</h3>
+                        <p>Full-stack system with MongoDB backend and responsive frontend (HTML/CSS/JS).</p>
+                        <a href="#" class="btn">View Project</a>
+                    </div>
+                    <div class="project-card">
+                        <img src="project3.jpg" alt="E-commerce Website">
+                        <h3>E-commerce Website</h3>
+                        <p>Full-featured online store with React and Node.js backend</p>
+                        <a href="#" class="btn">View Project</a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="data" class="tab-content">
+                <div class="project-grid">
+                    <div class="project-card">
+                        <img src="project2.jpg" alt="Data Analysis Automation">
+                        <h3>Data Analysis Automation</h3>
+                        <p>Developed Python scripts to clean and analyze sales data, reducing processing time by 40%.
+                        </p>
+                        <a href="#" class="btn">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>junaidkhan009668afo@gmail.com</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <p>+92 341 9386570</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Peshawar, Pakistan</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/EngrJunaid-khan" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/junaid-khan-39436466b/" target="_blank"><i
+                                class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <input type="text" placeholder="Subject">
+                    <textarea placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Junaid Khan. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
